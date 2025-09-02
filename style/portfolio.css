@@ -6,6 +6,9 @@
 
 
 /* Shared style */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 .text-primary {
     color:
         rgba(253, 110, 10, 1);
@@ -24,6 +27,18 @@
     padding: 18px 35px;
 }
 
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    color: #181818;
+}
+
+.section-description{
+    font-size: 18px;
+    color: #757575;
+    text-align: center;
+}
 /* header */
 .header{
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
@@ -80,3 +95,23 @@ nav ul a{
     width: 580px;
 }
 
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* About style */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    margin-top: 130px;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: bold;
+}
